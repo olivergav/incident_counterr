@@ -5,7 +5,7 @@ function SetCounter(props) {
         <div>
             <form onSubmit={(event) => {
                 event.preventDefault();
-            }}></form>
+            }}/>
 
             <label htmlFor="set-to">Set Count</label>
             <input type="number" id="set-to"/>
